@@ -15,10 +15,10 @@ int main(int argc, char* args[])
 	int total1 = 0, total2 = 0;
 
 	cout << "Digite o nome do primeiro piloto:" << endl; 
-	cin >> jog1; // Salva o nome digitado na variavel jog1.
+	cin >> jog1; 
 
 	cout << "Digite o nome do segundo piloto:" << endl;
-	cin >> jog2; // Salva o nome digitado na variavel jog2.
+	cin >> jog2; 
 	
 	while (sair == false)
 	{
@@ -44,7 +44,7 @@ int main(int argc, char* args[])
 		cout << "  _  " << endl;
 		imprimir_espacos(total1);
 		cout << "-o-o>" << endl;
-		cout << "_______________________________________________________________________________" << endl;
+		cout << "____________________________________________________" << endl;
 
 																										  
 		cout << "Valor que andou: " << total1 << endl;  
@@ -54,7 +54,7 @@ int main(int argc, char* args[])
 		cout << "  _  " << endl;
 		imprimir_espacos(total2);
 		cout << "-o-o>" << endl;
-		cout << "_______________________________________________________________________________" << endl;
+		cout << "____________________________________________________" << endl;
 																										  
 		cout << "Valor que andou: " << total2 << endl; 
 
