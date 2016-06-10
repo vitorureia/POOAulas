@@ -52,7 +52,7 @@ int main(int argc, char* args[])// função principal.
 		cout << "  _  " << endl;// 1º Parte do carrinho o TETO.
 		imprimir_espacos(total1);//Usa o numero aleatorio gerado no Total1.
 		cout << "-o-o>" << endl;// 2º Parte do carrinho o CORPO.
-		cout << "_______________________________________________________________________________" << endl;//Imprimindo a pista 
+		cout << "________________________________________________" << endl;//Imprimindo a pista 
 
 																										  
 		cout << "Valor que andou: " << total1 << endl;  
@@ -62,14 +62,13 @@ int main(int argc, char* args[])// função principal.
 		cout << "  _  " << endl;// 1º Parte do grafico do carrinho. (TETO)
 		imprimir_espacos(total2);//Usa o numero aleatorio gerado no Total2 para definir a qntd de espaços que devem ser impressos.
 		cout << "-o-o>" << endl;// 2º Parte do grafico do carrinho. (CORPO DO CARRO)
-		cout << "_______________________________________________________________________________" << endl;//Imprimindo a pista 
+		cout << "_________________________________________________" << endl;//Imprimindo a pista 
 
 																										  
 		cout << "Valor que andou: " << total2 << endl;  //espaços andando pelo carrinho 2
 
 		//a cada rodada apaga tudo 
 		system("cls");
-
 
 		//Se sair não limpa a tela.
 		if (total1 >= 80 || total2 >= 80)//fazer a condição do laço ficar falsa, e o jogo parar.
@@ -80,7 +79,6 @@ int main(int argc, char* args[])// função principal.
 
 		//Se continuar limpa a tela.
 		else system("cls");
-
 
 	}
 
